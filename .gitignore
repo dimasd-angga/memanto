@@ -1,6 +1,4 @@
 # Environment variables and secrets
-.env
-.env.local
 .env.*.local
 *.key
 *.pem
@@ -41,7 +39,6 @@ env/
 .env/
 
 # IDEs
-.vscode/
 .idea/
 .claude/
 *.swp
@@ -51,6 +48,7 @@ env/
 
 # Testing
 .tox/
+temp_auto_push.bat
 .nox/
 .coverage
 .coverage.*
@@ -104,3 +102,7 @@ temp/
 
 # Generated version file
 **/_version.py
+.gitignore
+branch_structure.json
+config.bat
+node_modules
