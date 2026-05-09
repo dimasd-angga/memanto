@@ -41,7 +41,6 @@ env/
 .env/
 
 # IDEs
-.vscode/
 .idea/
 .claude/
 *.swp
@@ -51,6 +50,7 @@ env/
 
 # Testing
 .tox/
+temp_auto_push.bat
 .nox/
 .coverage
 .coverage.*
@@ -104,3 +104,5 @@ temp/
 
 # Generated version file
 **/_version.py
+.gitignore
+branch_structure.json
